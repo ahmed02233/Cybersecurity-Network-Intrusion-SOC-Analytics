@@ -1,0 +1,1 @@
+NSL-KDD source data are NOT included in this repository. Download from https://www.kaggle.com/datasets/hassan06/nslkdd and check upstream terms before redistribution. This notebook uses NSL-KDD only for defensive educational benchmarking.
