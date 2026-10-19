@@ -49,7 +49,7 @@ Defensive analysis of the **historical NSL-KDD academic intrusion-detection benc
 - Caveat: ordinal encodings for categorical feature values are a simple baseline, not an optimized production pipeline.
 
 ## Visualization
-![Static SOC-style dashboard](figures/soc_executive_dashboard.png)
+![Static SOC-style dashboard](soc_executive_dashboard.png)
 
 ## Seven data-grounded recommendations
 | priority | recommendation | evidence | action | success_measure |
@@ -73,7 +73,7 @@ Defensive analysis of the **historical NSL-KDD academic intrusion-detection benc
 1. Open `Project_11_Cybersecurity_NSLKDD_SOC_Analytics.ipynb` in Colab.
 2. Upload `KDDTrain+.txt` and `KDDTest+.txt`, or the Kaggle ZIP, when Cell 1 prompts you.
 3. Click **Runtime → Run all**; Cell 8 packages all generated artifacts into a ZIP.
-4. Upload the saved notebook, README, requirements, charts, aggregated outputs and project ZIP contents to GitHub. **Do not upload source records unless permitted by their license.**
+4. Upload the saved notebook, README, requirements, dashboard PNG, aggregated outputs and project ZIP contents to GitHub. **Do not upload source records unless permitted by their license.**
 5. Verify the GitHub repository against generated figures and metrics; stop when complete and consistent.
 
 ## Suggested GitHub repository
