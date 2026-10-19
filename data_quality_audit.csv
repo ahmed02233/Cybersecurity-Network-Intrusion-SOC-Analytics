@@ -1,0 +1,3 @@
+split,records,columns_original,missing_cells,duplicate_rows,normal_records,attack_records,distinct_attack_labels
+train,125973,43,0,0,67343,58630,23
+test,22544,43,0,0,9711,12833,38

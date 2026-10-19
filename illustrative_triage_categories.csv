@@ -1,0 +1,7 @@
+attack_family,records,suggested_review_label
+Normal,9711,Not an alert
+DoS,7458,Medium (illustrative)
+R2L,2885,High (illustrative)
+Probe,2421,Review (illustrative)
+U2R,67,High (illustrative)
+Other / unmapped,2,Review (illustrative)

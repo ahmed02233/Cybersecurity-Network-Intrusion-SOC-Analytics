@@ -1,0 +1,12 @@
+split,attack_family,records,share_pct
+test,Normal,9711,43.08
+test,DoS,7458,33.08
+test,R2L,2885,12.8
+test,Probe,2421,10.74
+test,U2R,67,0.3
+test,Other / unmapped,2,0.01
+train,Normal,67343,53.46
+train,DoS,45927,36.46
+train,Probe,11656,9.25
+train,R2L,995,0.79
+train,U2R,52,0.04

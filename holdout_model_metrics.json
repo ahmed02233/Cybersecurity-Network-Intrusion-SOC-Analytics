@@ -1,0 +1,19 @@
+{
+  "train_records": 125973,
+  "test_records": 22544,
+  "accuracy": 0.7613112136266856,
+  "balanced_accuracy": 0.7869005668799873,
+  "attack_precision": 0.9656335916020995,
+  "attack_recall": 0.6021195355723525,
+  "attack_f1": 0.741732661387089,
+  "true_negative": 9436,
+  "false_positive": 275,
+  "false_negative": 5106,
+  "true_positive": 7727,
+  "false_positive_rate": 0.028318401812377717,
+  "miss_rate": 0.39788046442764746,
+  "training_only_categories_encoded_unknown_in_test": true,
+  "seed": 42,
+  "model": "RandomForestClassifier",
+  "model_scope": "NSL-KDD historical benchmark only"
+}

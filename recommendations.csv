@@ -1,0 +1,8 @@
+priority,recommendation,evidence,action,success_measure
+1,"Treat this as benchmarking, not live alerts",Dataset has no event timestamps/IPs and is historical.,Document scope on every dashboard and avoid operational SLA language.,All public project outputs prominently state dataset limitations.
+2,Prioritize attack recall alongside precision,"Held-out recall=0.602; false negatives=5,106.",Review false-negative cases by family; set thresholds using validated use-case costs.,"Track attack recall, miss rate, and precision together."
+3,Investigate false positives before escalation,Held-out false positives=275; FPR=0.028.,Review benign records flagged by baseline and design analyst-feedback loop.,Track false positive rate and precision.
+4,Evaluate unseen attack types separately,"17 attack labels are absent in train but present in test (3,750 records).",Publish model error breakdown by unseen label; avoid a single aggregate metric.,Track recall on previously unseen labels.
+5,Improve schema and data quality governance,Training missing cells=0; test missing cells=0.,"Validate 43-column input shape, missing values, categorical drift and duplicates.",Failed schema checks=0; audit outputs retained.
+6,Use SQL segmentation for analyst-style review,Test split includes 38 distinct labels across 6 family classes.,"Maintain family, service and protocol breakdowns to detect benchmark blind spots.",All grouped totals reconcile to source partition.
+7,Require modern and time-aware validation before deployment,"NSL-KDD is an older, non-time-stamped academic dataset.","Assess modern, licensed traffic data with legitimate collection, drift testing and security review before production use.",No production deployment claim without independent modern validation.

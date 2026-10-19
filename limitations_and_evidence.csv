@@ -1,0 +1,6 @@
+dimension,available,implication
+Event timestamps,No,Cannot make hourly/daily trends or time-to-detect claims.
+Source/destination IPs,No,"Cannot identify affected real endpoints, geolocations or victims."
+Deployment traffic,No,No production alert rates or current SOC workload can be inferred.
+Dataset period,Historical academic benchmark,Do not extrapolate to modern attack prevalence.
+Novel attack labels in test,17 distinct labels,Previously unseen labels test generalization but not current threats.

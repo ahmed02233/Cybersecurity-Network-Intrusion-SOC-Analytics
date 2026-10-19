@@ -1,0 +1,7 @@
+split,protocol_type,records,attacks,attack_share_pct
+test,tcp,18880,11038,58.46
+test,udp,2621,845,32.24
+test,icmp,1043,950,91.08
+train,tcp,102689,49089,47.8
+train,udp,14993,2559,17.07
+train,icmp,8291,6982,84.21
